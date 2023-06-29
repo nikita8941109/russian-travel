@@ -1,0 +1,20 @@
+.footer__column-link {
+    color: #FFF;
+    font-size: 16px;
+    font-weight: 400;
+    display: inline-block;
+    line-height: 18px;
+    text-decoration: none;
+    padding-right: 15px;
+  }
+  .footer__column-link:hover {
+    color: rgb(213, 213, 213);
+  }
+  @media screen and (max-width: 425px) {
+    .footer__column-link {
+      font-size: 24px;
+      font-weight: 400;
+      line-height: 24px;
+      margin-bottom: 32px;
+    }
+}
