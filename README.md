@@ -13,3 +13,5 @@
  7. PerfectPixel 
 ---
  ### Ссылки
+ - https://nikita8941109.github.io/russian-travel/
+ - https://github.com/nikita8941109/russian-travel.git
