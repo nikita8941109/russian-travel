@@ -2,14 +2,13 @@
     max-width: 460px;
     max-height: 460px; 
   }
-@media screen and (max-width: 1024px) and (min-width: 769px) {
+@media screen and (max-width: 1024px) {
     .place__image {
-        margin-top: 6px;
         max-width: 440px;
         max-height: 440px;
  }
  }
- @media screen and (max-width: 768px) and (min-width: 426px) {
+ @media screen and (max-width: 768px) {
     .place__image {
       max-width: 340px;
       max-height: 340px; 
@@ -20,6 +19,5 @@
     .place__image {
       max-width: 320px;
       max-height: 320px;
-      margin-bottom: 15px;
     }
 }

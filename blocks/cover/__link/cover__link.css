@@ -1,49 +1,53 @@
 .cover__link {
-    display: block;
+     display: flex;
     text-decoration: none;
-    padding: 186px 312px 244px;
+    justify-content: center;
+    flex-direction: column;
     background-image: url(../../../images/cover-trains.jpg);
     background-repeat: no-repeat;
     margin: 0 auto;
-    max-height: 740px;
+    min-height: 740px;
     background-position: center;
-    position: relative;
+    align-items: center;
     background-size: cover;
+    position: relative;
+    z-index: 0;
   }
   
   
   .cover__link:before {
     content: "";
     display: block;
-    background-color: rgba(42, 44, 47, .3);
-    transition: background-color .5s;
+    opacity: .3;
+    background: #2A2C2F;
+    transition: opacity .5s ease-in-out;
     position: absolute;
     top: 0;
     left: 0;
     width: 100%;
     height: 100%;
-    z-index: 0;
+    z-index: 1;
   }
   .cover__link:hover:before {
-    background-color: rgba(42, 44, 47, .8);
+    opacity: .8;
   }
   
-@media screen and (max-width: 1080px) and (min-width: 769px) {
+@media screen and (max-width: 1024px) {
     .cover__link {
-      padding: 134px 232px 194px;
-      max-height: 640px;
+      padding: 2px;
+      min-height: 640px;
     }
   }
-  @media screen and (max-width: 768px) and (min-width: 426px) {
+  @media screen and (max-width: 768px) {
    
     .cover__link {
-      padding: 56px 104px 115px;
-      max-height: 480px;
+      padding: 4px 0 0;
+      min-height: 480px;
     }
   }
   @media screen and (max-width: 425px) {
     .cover__link {
-      padding: 5px 33px 16px;
-      max-height: 200px;
+      padding: 0;
+      min-height: 200px;
     }
 }

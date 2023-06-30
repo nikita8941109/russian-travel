@@ -3,22 +3,19 @@
    margin: 0 auto;    
   }
   
-  @media screen and (max-width: 1024px)  and (min-width: 768px) {
+  @media screen and (max-width: 1024px) {
     .lead__container {
-      max-width: 928px; 
-      margin: 0 auto;  
+      max-width: 928px;   
     }
 }
 
-@media screen and (max-width: 768px) and (min-width: 425px) {
+@media screen and (max-width: 768px) {
     .lead__container {
       max-width: 768px; 
-      margin: 0 auto;  
     }
 }
 @media screen and (max-width: 425px) {      
     .lead__container {
       max-width: 320px; 
-      margin: 0 auto;  
     }
 }

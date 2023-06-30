@@ -8,5 +8,6 @@
   }
   
 .place__link:hover {
-    color: rgb(213, 213, 213);
+    opacity: .8;
+    background-color: #2A2C2F;
   }
