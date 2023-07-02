@@ -1,9 +1,11 @@
 .page {
-    background: #2A2C2F;
-    -webkit-font-smoothing: none;
-    -moz-osx-font-smoothing: none;
-    text-size-adjust: none;
-    text-rendering: optimizeLegibility;
-    font-family: 'Inter', 'Arial', sans-serif;
-    color: #FFFFFF;
+  background: #2a2c2f;
+  -webkit-font-smoothing: none;
+  -moz-osx-font-smoothing: none;
+  text-size-adjust: none;
+  text-rendering: optimizeLegibility;
+  font-family: "Inter", "Arial", sans-serif;
+  color: #ffffff;
+  max-width: 1600px;
+  margin: 0 auto;
 }

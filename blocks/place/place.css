@@ -1,31 +1,29 @@
 .place {
-    display: grid;
-    grid-template-columns: 460px 1fr;
-    grid-gap: 48px 40px;
-    padding-bottom: 80px;
-  }
+  display: grid;
+  grid-template-columns: 460px 1fr;
+  grid-gap: 48px 40px;
+  padding-bottom: 80px;
+}
 .place:last-child {
   padding-bottom: 0;
 }
-  @media screen and (max-width: 1024px) {
-    .place {
-      grid-gap: 47px 10px; /* 47 по pp */
-    }
+@media screen and (max-width: 1126px) {
+  .place {
+    grid-gap: 47px 10px; /* 47 по pp */
+  }
 }
 @media screen and (max-width: 768px) {
-    .place {
-      grid-template-columns: 340px 1fr;
-      grid-gap: 46px 27px;
-      padding-bottom: 73px;
-    }
+  .place {
+    grid-template-columns: 340px 1fr;
+    grid-gap: 46px 27px;
+    padding-bottom: 73px;
+  }
 }
 
-@media screen and (max-width: 425px) {
-    .place {
+@media screen and (max-width: 620px) {
+  .place {
     grid-template-columns: 1fr;
-    grid-gap: 32px; 
-    padding-bottom: calc(29% - 9.5%);
-    
-    }
-  
+    grid-gap: 32px;
+    padding-bottom: calc(29% - 9.5%); /* Я не знаю, как решить проблему с 320.. */
+  } 
 }
