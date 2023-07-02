@@ -12,7 +12,7 @@
     grid-gap: 47px 10px; /* 47 по pp */
   }
 }
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 868px) {
   .place {
     grid-template-columns: 340px 1fr;
     grid-gap: 46px 27px;

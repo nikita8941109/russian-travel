@@ -8,6 +8,12 @@
   margin-top: 93px;
 }
 
+@media screen and (max-width: 768px) {
+  .intro__title {
+    margin-top: 0;
+    margin-bottom: 38px;
+  }
+}
 @media screen and (max-width: 425px) {
   .intro__title {
     font-size: 32px;
