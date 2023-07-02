@@ -24,6 +24,6 @@
   .place {
     grid-template-columns: 1fr;
     grid-gap: 32px;
-    padding-bottom: calc(29% - 9.5%); /* Я не знаю, как решить проблему с 320.. */
+    padding-bottom: 50px;  
   } 
 }
